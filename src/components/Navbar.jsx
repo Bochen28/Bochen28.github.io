@@ -1,10 +1,11 @@
 import React from "react";
+import styles from "@/styles/navbar.module.sass";
 
 export default function Navbar() {
   return (
-    <nav>
-      <div>Logo</div>
-      <div>
+    <nav className={styles.navWrapper}>
+      <div className={styles.logoWrapper}>Logo</div>
+      <div className={styles.linksWrapper}>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
