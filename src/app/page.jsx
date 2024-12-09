@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/sections/Hero";
 import styles from "./page.module.css";
+import About from "@/components/sections/About";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <About />
       </main>
     </div>
   );
