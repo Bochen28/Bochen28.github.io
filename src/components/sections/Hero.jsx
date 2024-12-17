@@ -8,6 +8,7 @@ export default function Hero() {
         <a href="#projects">See my work</a>
         <a href="#contact">Contact me</a>
       </div>
+      <div className={styles.curve}></div>
     </div>
   );
 }

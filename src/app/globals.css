@@ -4,10 +4,10 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    color: black;
+    color: #FFFFFF;
   }
   html, body {
-    height: 100%;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
