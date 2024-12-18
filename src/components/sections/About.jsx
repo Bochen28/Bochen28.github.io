@@ -11,6 +11,19 @@ export default function About() {
         porta elit id, aliquet urna. Cras ut molestie lacus. Sed pharetra urna
         non lorem aliquet, vel luctus erat ultricies.
       </p>
+      <div className={styles.bubbleWrapper}>
+        {[...Array(15)].map((_, i) => (
+          <div
+            key={i}
+            className={styles.bubble}
+            style={{
+              
+              left: `${Math.random() * 100}%`,
+              bottom: `${Math.random() * 50}%`,
+            }}
+          ></div>
+        ))}
+      </div>
     </div>
   );
 }
