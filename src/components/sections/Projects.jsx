@@ -14,33 +14,13 @@ export default function Projects() {
             width={500}
             height={500}
           />
-        </div>
-        <div className={styles.project}>
-          <Image
-            className={styles.projectImage}
-            src="/project1.png"
-            alt="Project 1"
-            width={500}
-            height={500}
-          />
-        </div>
-        <div className={styles.project}>
-          <Image
-            className={styles.projectImage}
-            src="/project1.png"
-            alt="Project 1"
-            width={500}
-            height={500}
-          />
-        </div>
-        <div className={styles.project}>
-          <Image
-            className={styles.projectImage}
-            src="/project1.png"
-            alt="Project 1"
-            width={500}
-            height={500}
-          />
+          <div className={styles.textWrapper}>
+            <h3>Sample description for project</h3>
+            <div className={styles.buttonWrapper}>
+              <button className={styles.button}>Git</button>
+              <button className={styles.button}>Demo</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
