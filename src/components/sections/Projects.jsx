@@ -15,6 +15,7 @@ export default function Projects() {
             height={500}
           />
           <div className={styles.textWrapper}>
+            <h2>Title</h2>
             <h3>Sample description for project</h3>
             <div className={styles.buttonWrapper}>
               <button className={styles.button}>Git</button>
