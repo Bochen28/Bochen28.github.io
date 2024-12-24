@@ -6,9 +6,9 @@ export default function Navbar() {
     <nav className={styles.navWrapper}>
       <div className={styles.logoWrapper}><a href="#hero">Logo</a></div>
       <div className={styles.linksWrapper}>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#about">about</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
       </div>
     </nav>
   );
